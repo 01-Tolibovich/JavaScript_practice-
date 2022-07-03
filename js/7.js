@@ -9,5 +9,3 @@ while (i < scores.length) {
     console.log (output);
     i = i + 1;
 }
-
-chekAge ();
