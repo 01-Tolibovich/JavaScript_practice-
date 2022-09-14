@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+<body>
+    <script>
+        let emailString = prompt("Введите e-mail адреса через запятую");
+        let noreplyIndex = email.indexof("no-reply@itvdn.com");
+
+        if (noreplyIndex != -1) {
+            emails.splice(norelyIndex, 1);
+        }
+
+        if (emails.indexof("admin@itvdn.com") == -1) {
+            emails.push("admin@itvdn.com");
+        }
+
+        for (let email of emails) {
+            console.log(`Отправка письма на адрес ${email}`);
+        }
+
+        alert(`Отправлено ${emails.length} писем`);
+    </script>
+</body>
+</html>
